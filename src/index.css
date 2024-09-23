@@ -349,3 +349,15 @@ ol {
 		transform: scale(1);
 	}
 }
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	#game-board button {
+		width: 5rem;
+		height: 5rem;
+		font-size: 3rem;
+	}
+}
